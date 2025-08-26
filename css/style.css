@@ -57,7 +57,7 @@ a {
 
 
 .container {
-  min-height: calc(100vh - 170px); /* 100% da tela menos o header */
+  min-height: calc(100vh - 100px); /* 100% da tela menos o header */
   padding: 0 10%;
   display: flex;
   align-items: center;      
@@ -95,6 +95,7 @@ a {
 
 .social-links {
   margin-top: 20px;
+  margin-left: 5px;
   display: flex;
   gap: 20px;
 }
@@ -204,6 +205,11 @@ a {
   margin-bottom: 20px;
 }
 
+.container-projetos{
+  display: block;
+  min-height: calc(100vh - 190px);
+  padding: 50px 10%;
+}
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -241,7 +247,7 @@ a {
   }
 
   .titulo {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     margin-bottom: 20px;
   }
 
