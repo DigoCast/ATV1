@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Diego Castilho</title>
+    <title>Contato - Diego Castilho</title>
   </head>
   <body>
     <header class="header">
@@ -23,13 +23,23 @@
       </div>
     </header>
 
-    <div class="container-contato">
-      <label for="nome">Nome</label>
-      <input type="text" name="nome" class="input-text">
-      <label for="nome">Email</label>
-      <input type="email" name="email" class="input-text">
-      <label for="nome">Assunto</label>
-      <input type="text" name="assunto">
-    </div>
+    <main class="container-contato">
+      <h1 class="titulo">Entre em <span class="nome-titulo">contato</span></h1>
+      <form class="form-contato">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="input-text" placeholder="Seu nome" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="input-text" placeholder="seu@email.com" required />
+
+        <label for="assunto">Assunto</label>
+        <input type="text" name="assunto" id="assunto" class="input-text" placeholder="Assunto da mensagem" />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" class="input-text area-text" placeholder="Digite sua mensagem..." required></textarea>
+
+        <button type="submit" class="botao-enviar">Enviar</button>
+      </form>
+    </main>
   </body>
 </html>
