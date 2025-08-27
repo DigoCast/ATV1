@@ -8,24 +8,94 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Diego Castilho</title>
+    <title>Projetos - Diego Castilho</title>
   </head>
   <body>
-      <header class="header">
-        <div>
-          <a href="./index.html" class="logo"><span>Diego</span></a>
-        </div>
-        <div class="navigation">
-          <a href="./sobre.html">sobre</a>
-          <a href="./portfolio.html">portifólio</a>
-          <a href="./servicos.html">serviços</a>
-          <a href="./contato.html">contato</a>
-        </div>
-      </header>
-
-      <div class="container-projetos">
-        <h1 class="titulo">Meus <span class="nome-titulo">Projetos</span></h1>
+    <header class="header">
+      <div>
+        <a href="./index.html" class="logo"><span>Diego</span></a>
       </div>
-    
-</body>
+      <div class="navigation">
+        <a href="./sobre.html">sobre</a>
+        <a href="./portfolio.html">portifólio</a>
+        <a href="./servicos.html">serviços</a>
+        <a href="./contato.html">contato</a>
+      </div>
+    </header>
+
+    <main class="container-projetos">
+      <h1 class="titulo-sec">Meus <span class="nome-titulo">Projetos</span></h1>
+
+      <div class="grid-projetos">
+        <div class="card-projeto">
+          <img src="../img/alplaca.jpeg" alt="Projeto 1" />
+          <div>
+            <h2>Alplaca</h2>
+            <p>
+              Reconhecimento de Placas Veiculares com VLM. Este projeto utiliza
+              Vision Language Models (VLM) para leitura automática de placas de
+              veículos a partir de imagens
+            </p>
+            <a
+              href="https://github.com/Bug-Busters-F/alplaca.git"
+              target="_blank"
+              class="botao-projeto"
+              >Ver Projeto</a
+            >
+          </div>
+        </div>
+
+        <div class="card-projeto">
+          <img src="../img/barbershop.jpeg" alt="Projeto 2" />
+          <h2>Barbershop</h2>
+          <p>
+            Aplicação web para cadastro e gerenciamento de barbearias e seus
+            serviços, desenvolvida com Next.js, TypeScript e React.
+          </p>
+          <a
+            href="https://github.com/DigoCast/barbershop-project"
+            target="_blank"
+            class="botao-projeto"
+            >Ver Projeto</a
+          >
+        </div>
+
+        <div class="card-projeto">
+          <img src="../img/alfalog.jpeg" alt="Projeto 3" />
+          <div>
+            <h2>AlfaLog</h2>
+            <p>
+              Plataforma web que disponibiliza informações sobre o desempenho dos
+              Estados Brasileiros no Comércio Exterior, com base nos dados abertos
+              do Ministério do Desenvolvimento, Indústria, Comércio e Serviços.
+            </p>
+            <a
+              href="https://github.com/Bug-Busters-F/alfalog"
+              target="_blank"
+              class="botao-projeto"
+              >Ver Projeto</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <section class="tecnologias">
+        <h2 class="titulo">
+          Minhas <span class="nome-titulo">Tecnologias</span>
+        </h2>
+        <ul class="lista-tecnologias">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+          <li>Python</li> 
+          <li>Java</li>
+          <li>SQL / MySQL</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>

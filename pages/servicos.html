@@ -5,23 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Diego Castilho</title>
+    <title>Serviços e Interesses - Diego Castilho</title>
   </head>
   <body>
-      <header class="header">
-        <div>
-          <a href="./index.html" class="logo"><span>Diego</span></a>
+    <header class="header">
+      <div>
+        <a href="./index.html" class="logo"><span>Diego</span></a>
+      </div>
+      <div class="navigation">
+        <a href="./sobre.html">sobre</a>
+        <a href="./portfolio.html">portifólio</a>
+        <a href="./servicos.html">serviços</a>
+        <a href="./contato.html">contato</a>
+      </div>
+    </header>
+
+    <main class="container-projetos">
+      <h1 class="titulo-sec">Meus <span class="nome-titulo">Serviços</span></h1>
+      <section class="grid-projetos">
+        <div class="card-projeto">
+          <img src="../img/web.jpg" alt="Desenvolvimento Web" />
+          <h2>Desenvolvimento Web</h2>
+          <p>
+            Criação de sites e aplicações responsivas utilizando HTML, CSS, JavaScript, 
+            React e TypeScript. Foco em desempenho, acessibilidade e boas práticas de código.
+          </p>
         </div>
-        <div class="navigation">
-          <a href="./sobre.html">sobre</a>
-          <a href="./portfolio.html">portifólio</a>
-          <a href="./servicos.html">serviços</a>
-          <a href="./contato.html">contato</a>
+
+        <div class="card-projeto">
+          <img src="../img/backend.png" alt="Back-end" height="260px" width="270px"/>
+          <h2>Back-end & Banco de Dados</h2>
+          <p>
+            Desenvolvimento de APIs e sistemas de gestão com Node.js, Python e Java. 
+            Experiência com SQL e MySQL, otimizando consultas e organização de dados.
+          </p>
         </div>
-      </header>
-    
-</body>
+
+        <div class="card-projeto">
+          <img src="../img/dados.jpeg" alt="Análise de Dados" />
+          <h2>Análise de Dados</h2>
+          <p>
+            Coleta, tratamento e visualização de dados. Projetos aplicados em logística e 
+            comércio exterior, transformando informações em decisões estratégicas.
+          </p>
+        </div>
+
+        <div class="card-projeto">
+          <img src="../img/uxui.avif" alt="UX/UI" />
+          <h2>Design & Experiência do Usuário</h2>
+          <p>
+            Interesse em design de interfaces funcionais e intuitivas, aplicando conceitos 
+            de UX/UI para melhorar a experiência dos usuários em sistemas e aplicações.
+          </p>
+        </div>
+      </section>
+      <section class="tecnologias">
+        <h2 class="titulo">Áreas de <span class="nome-titulo">Interesse</span></h2>
+        <ul class="lista-tecnologias">
+          <li>Inovação Tecnológica</li>
+          <li>Inteligência Artificial</li>
+          <li>Ciência de Dados</li>
+          <li>Segurança da Informação</li>
+          <li>Computação em Nuvem</li>
+          <li>Empreendedorismo Digital</li>
+          <li>Experiência do Usuário (UX)</li>
+          <li>Desenvolvimento Mobile</li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
